@@ -2,6 +2,7 @@ docker-centos
 =============
 
 This is the base-image of all our other docker images. It is based on the official centos7 images and adds:
+
  - supervisord
  - confd
 
