@@ -16,5 +16,11 @@ mkdir /scripts
 cp /build/entrypoint.sh /scripts/
 cp /build/start-confd.sh /scripts/
 
+mkdir /scripts/entrypoint-hooks.d
+
 # Logs directory (default log output for supervisor)
 mkdir /logs
+
+# Configs directory
+mkdir /configs
+
